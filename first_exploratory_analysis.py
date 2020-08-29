@@ -24,7 +24,7 @@ plt.close()
 
  The power values in kW refer to the average over the 15min period.
 """
-df = pd.read_csv('A.csv')
+df = pd.read_csv('data/A.csv')
 df.index = pd.to_datetime(df.Timestamp)
 df["Self_Consumption_kW"] = df.Generation_kW - df["Grid_Feed-In_kW"]
 df["Excess_Grid_Supply"] = df["Overall_Consumption_Calc_kW"] - df["Self_Consumption_kW"]
