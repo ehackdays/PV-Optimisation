@@ -1,7 +1,7 @@
 # Analysis and Design of Battery Storage for PV Systems
 Challenge No. 2 @ Energy Data Hackdays 2020
 
-This repo contain some additional analysis scripts that rely on the original data files (CSV) provided for the challenge.
+This repo contain some additional analysis scripts that use the original data files (CSV) provided for the challenge.
 
 # Data
 Data on power generation, grid feed, grid supply and overall consumption of three power plants by AEW Energie AG. First time published for the Challenge 3 of Energy Data Hackdays 2020 in Brugg.
