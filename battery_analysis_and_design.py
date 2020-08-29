@@ -17,7 +17,7 @@ plt.close("all")
 
 # Choose one of the three provided datasets (A or B; C has different columns and
 # would require some more preprocessing)
-df = pd.read_csv('A.csv')
+df = pd.read_csv('data/A.csv')
 
 df.index = pd.to_datetime(df.Timestamp)
 df.drop("Timestamp", axis=1, inplace=True)
